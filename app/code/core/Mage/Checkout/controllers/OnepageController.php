@@ -472,6 +472,8 @@ class Mage_Checkout_OnepageController extends Mage_Checkout_Controller_Action
             }
 
             $data = $this->getRequest()->getPost('payment', array());
+			
+			echo '<pre>';print_r($_FILES) ;die;
             $result = $this->getOnepage()->savePayment($data);
 
             // get section and redirect data

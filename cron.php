@@ -34,6 +34,7 @@ if (!Mage::isInstalled()) {
     exit;
 }
 
+echo "testiong";
 // Only for urls
 // Don't remove this
 $_SERVER['SCRIPT_NAME'] = str_replace(basename(__FILE__), 'index.php', $_SERVER['SCRIPT_NAME']);

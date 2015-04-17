@@ -24,6 +24,7 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
+<input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey()?>" />
 <ul class="form-list" id="payment_form_<?php echo $this->getMethodCode() ?>" style="display:none;">
     <li>
         <label for="po_number" class="required"><em>*</em><?php echo $this->__('Purchase Order Number') ?></label>
@@ -31,4 +32,8 @@
             <input type="text" id="po_number" name="payment[po_number]" title="<?php echo $this->__('Purchase Order Number') ?>" class="input-text required-entry" value="<?php echo $this->escapeHtml($this->getInfoData('po_number')) ?>" />
         </div>
     </li>
+	<li>
+	 <input type="file" id="pofile" name="payment[pofile]"   />
+	
+	</li>
 </ul>
