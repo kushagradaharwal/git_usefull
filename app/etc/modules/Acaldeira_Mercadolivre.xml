@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MM Ajax 
+ * 
+ * @category     Acaldeira
+ * @package      Acaldeira_Mercadolivre 
+ * @copyright    Copyright (c) 2015 MM (http://blog.meumagento.com.br/)
+ * @author       MM (Thiago Caldeira de Lima)  
+ * @version      Release: 0.1.0
+ */
+-->
+<config>
+  <modules>
+    <Acaldeira_Mercadolivre>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Acaldeira_Mercadolivre>
+  </modules>
+</config>
